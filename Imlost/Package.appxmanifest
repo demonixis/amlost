@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="124fdf8c-4bee-4fe0-98c6-7c03e8d86df2" Publisher="CN=Yann" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>ImLost</DisplayName>
+    <PublisherDisplayName>Yann</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="ImLost.App">
+      <VisualElements DisplayName="A.M. Lost" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="AM Lost" ForegroundText="light" BackgroundColor="#000000">
+        <DefaultTile ShowName="allLogos" WideLogo="Assets\Large.png" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

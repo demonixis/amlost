@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Generic="System.Collections.Generic" xmlns:Data="Imlost.Data">
+  <Asset Type="Generic:List[Data:InventoryItem]">
+    <Item>
+      <PickSound>Audio/Sound_paper</PickSound>
+      <UseSound>Audio/Sound_paper</UseSound>
+      <Code>SceneObject_1</Code>
+      <Name>Ticket 1/2</Name>
+      <AssetName>Items/item_1</AssetName>
+    </Item>
+    <Item>
+      <PickSound>Audio/Sound_paper</PickSound>
+      <UseSound>Audio/Sound_paper</UseSound>
+      <Code>SceneObject_7</Code>
+      <Name>Ticket 2/2</Name>
+      <AssetName>Items/item_2</AssetName>
+    </Item>
+    <Item>
+      <PickSound>Audio/Sound_hammer</PickSound>
+      <UseSound>Audio/Sound_breaking_lock</UseSound>
+      <Code>SceneObject_2</Code>
+      <Name>Marteaux</Name>
+      <AssetName>Items/item_3</AssetName>
+    </Item>
+    <Item>
+      <PickSound>Audio/Sound_ring</PickSound>
+      <UseSound>Audio/Sound_ring</UseSound>
+      <Code>SceneObject_3</Code>
+      <Name>Anneau vide</Name>
+      <AssetName>Items/item_4</AssetName>
+    </Item>
+    <Item>
+      <PickSound>Audio/Sound_diamond</PickSound>
+      <UseSound>Audio/Sound_ring</UseSound>
+      <Code>SceneObject_6</Code>
+      <Name>Diamand</Name>
+      <AssetName>Items/item_5</AssetName>
+    </Item>
+    <Item>
+      <PickSound>Audio/Sound_bulb_screw</PickSound>
+      <UseSound>Audio/Sound_bulb_screw</UseSound>
+      <Code>SceneObject_5</Code>
+      <Name>Ampoule</Name>
+      <AssetName>Items/item_6</AssetName>
+    </Item>
+    <Item>
+      <PickSound>Audio/Sound_ring</PickSound>
+      <UseSound>Audio/Sound_door_key</UseSound>
+      <Code>SceneObject_4</Code>
+      <Name>Clé local technique</Name>
+      <AssetName>Items/item_7</AssetName>
+    </Item>
+  </Asset>
+</XnaContent>
