@@ -1,0 +1,15 @@
+A.M. Lost
+=========
+
+A game created during the GDP #3 (GameDev Party 3) @ Lyon - 12-11-2012 by
+
+- Yannick Comte
+- Alex Frêne
+- Thomas Ruffier
+- Jean-Etienne Martin
+- Mathieu
+- Almos Varga
+
+The game has bug (really) and can't be finished for now.
+
+Don't hesitate to contact me @ contact@demonixis.net

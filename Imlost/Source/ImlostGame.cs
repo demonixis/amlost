@@ -78,7 +78,7 @@ namespace Imlost
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            var liste = Content.Load<SceneData[]>("database");
+            var liste = Content.Load<List<SceneData>>("database");
 
             Scenes = new Dictionary<string, SceneData>();
 

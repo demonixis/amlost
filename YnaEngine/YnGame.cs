@@ -76,11 +76,15 @@ namespace Yna.Engine
         public YnGame(int width, int height, string title)
             : this()
         {
-#if XNA || MONOGAME && (OPENGL || DIRECTX || LINUX || MACOSX) ||SDL2
+#if XNA || MONOGAME && (OPENGL || DIRECTX || LINUX || MACOSX) || SDL2
             SetScreenResolution(width, height);
           
             this.Window.Title = title;
 
+            ScreenHelper.ScreenWidthReference = width;
+            ScreenHelper.ScreenHeightReference = height;
+#else
+            SetScreenResolution(width, height);
             ScreenHelper.ScreenWidthReference = width;
             ScreenHelper.ScreenHeightReference = height;
 #endif

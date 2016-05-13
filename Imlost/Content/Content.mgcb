@@ -6,10 +6,11 @@
 /platform:Windows
 /config:
 /profile:Reach
-/compress:False
+/compress:True
 
 #-------------------------------- References --------------------------------#
 
+/reference:..\..\Imlost.Data\bin\Debug\Imlost.Data.dll
 
 #---------------------------------- Content ---------------------------------#
 
